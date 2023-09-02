@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <style>
+      .container .border {
+        display: block;
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-width: 3px !important;
+        border-color: #e63a8d !important;
+        border-radius: 5px;
+        background-color: #f5e1e2;
+      }
+      .h-one {
+        font-family: Barbie;
+        font-size: 50px;
+        text-align: left;
+        color: #e63a8d;
+        padding-left: 20px;
+        margin-bottom: -150px;
+        text-shadow: 2px 2px 4px rgba(243, 153, 179, 1);
+      }
+      .sparkle-one {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 50px;
+        padding-left: 40px;
+      }
+      .tswift {
+        max-width: 200px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border: 5px solid #e63a8d;
+        border-radius: 20px;
+      }
+
+      /* New CSS rules to adjust image positioning */
+      .container-text-image {
+        display: flex;
+        align-items: center;
+      }
+      .carousel {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        border: 5px solid #e63a8d;
+        border-radius: 10px;
+      }
+      .learn-more-link {
+        text-decoration: none;
+      }
+      .learn-more-button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        padding: 10px;
+        background-color: rgb(255, 210, 223);
+        border: 2px solid #e63a8d;
+        border-radius: 15px;
+        color: #e63a8d;
+        font-family: Barbie;
+        transition: all 200ms ease-in-out;
+      }
+      .learn-more-button:hover {
+        background-color: #e63a8d;
+        color: rgb(255, 210, 223);
+        border: 2px solid rgb(255, 166, 181);
+      }
+      .coder-image {
+        max-width: 120px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 5px solid #e63a8d;
+        border-radius: 10px;
+      }
+      .about-me {
+        position: relative;
+        margin-left: 300px;
+      }
+      .about-container {
+        background-color: #e63a8d;
+        padding: 20px;
+        margin-left: -7px;
+        border: 2px solid #e63a8d;
+        border-radius: 7px;
+      }
+      .about-text-title {
+        color: rgb(255, 231, 238);
+        text-shadow: 2px 2px 4px rgb(103, 28, 50);
+      }
+      .source {
+        display: flex;
+        float: right;
+        margin-right: 300px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #f05ea5;
+        font-weight: bold;
+        text-align: right;
+      }
+      h5 {
+        font-family: Barbie;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px rgba(243, 153, 179, 1);
+      }
+      p {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="border">
+        <div class="container-text-image">
+          <div class="h-one">
+            <span>
+              Taylor Swift:
+              <div>A Real-Life Barbie</div>
+            </span>
+          </div>
+          <img
+            class="tswift"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/427/original/taylorswiftbarbie.jpeg?1693631613"
+          />
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/428/original/tswiftcarouselone.jpeg?1693633986"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Passionate About Her Career</h5>
+                <p>This Barbie is a mastermind that loves to sing!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/429/original/taylorswiftglitter.png?1693634497"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Not Afraid to Shimmer</h5>
+                <p>This Barbie is bold, confident, and fearless!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/441/original/LavenderHaze.jpeg?1693635561"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Loves to Stay in the Haze</h5>
+                <p>This Barbie has an imagination beyond her wildest dreams!</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <a
+          href="https://www.theswiftmuseum.com/"
+          target="_blank"
+          class="learn-more-link"
+        >
+          <button class="learn-more-button">Click Here to Learn More</button></a
+        >
+      </div>
+      <div class="source">
+        Open-sourced on github and hosted on Netlify <br />
+        SheCodes Monthly Challenge: Code like Barbie
+      </div>
+      <span class="about-me">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/442/original/barbie.jpg?1693637388"
+          class="coder-image"
+        />
+        <span class="about-container">
+          <span class="about-text-title">This Barbie Loves to Code!</span>
+          <br />
+        </span>
+      </span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const carousel = new bootstrap.Carousel("#carouselExampleCaptions");
+    </script>
+  </body>
+</html>
